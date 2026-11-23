@@ -1,0 +1,8 @@
+{
+  "name": "gphotos-migrate",
+  "version": "1.0.0",
+  "description": "Apple-Fotos-Mediathek (iCloud) nach Google Photos umziehen – mit Datum, Ort, Alben und Live Photos",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=20" }
+}

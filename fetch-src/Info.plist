@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>local.gphotos-migrate.photofetch</string>
+<key>CFBundleName</key><string>PhotoFetch</string>
+<key>CFBundleExecutable</key><string>PhotoFetch</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>LSUIElement</key><true/>
+<key>NSPhotoLibraryUsageDescription</key><string>Lädt deine Originalfotos, um sie nach Google Photos zu übertragen.</string>
+</dict></plist>

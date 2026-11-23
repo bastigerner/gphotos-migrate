@@ -1,0 +1,12 @@
+# Zugangsdaten und alles Persönliche – niemals einchecken
+client_secret.json
+token*.json
+albums.json
+split-albums.json
+state/
+
+# Gebautes und Zwischenstände
+PhotoFetch.app/
+node_modules/
+__pycache__/
+.DS_Store
