@@ -33,6 +33,9 @@ Das Projekt löscht nichts – weder in Apple Fotos noch bei Google.
 - [Node.js](https://nodejs.org) ab Version 20, Python 3
 - `ffmpeg`, `exiftool` und `uv` (für `uvx osxphotos`), z. B. `brew install ffmpeg exiftool uv`
 - ein Google-Konto mit genug Speicher und ein eigenes Google-Cloud-Projekt (kostenlos, siehe unten)
+- freier Platz auf dem Mac: Fotos behält die aus iCloud geladenen Originale in der Mediathek, auch bei
+  „Mac-Speicher optimieren“ (hier belegte sie danach 173 GB). Nach dem Umzug iCloud-Fotos in Fotos ausschalten und
+  die Mediathek löschen – in iCloud und bei Google bleibt alles erhalten.
 
 Es gibt keine npm-Abhängigkeiten.
 

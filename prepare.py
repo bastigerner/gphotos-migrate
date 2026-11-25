@@ -99,6 +99,9 @@ for p in json.load(open(query)):
     files = by_uuid.get(uuid, [])
     for f in files:
         apple[str(f)] = p
+    # Ein geändertes Titelbild legt Apple als Standbild (fullSizePhoto) ab; das ist keine bearbeitete Fassung des Videos.
+    if p.get("ismovie"):
+        files = [f for f in files if f.suffix.lower() in VID]
     if not files:
         problems.append(f"{uuid} {p['original_filename']}: keine geladene Datei")
         continue
